@@ -1,0 +1,16 @@
+{
+  "config": {
+    "abort": {
+      "one_instance_allowed": "Bare en enkelt forekomst er nødvendig."
+    },
+    "create_entry": {
+      "default": "\n\nÅpne Leaf Spy-appen, gå til `Meny` -> `Innstillinger` og bla ned til `Server`. \nEndre følgende innstillinger:\n - `Aktiver`: Ja\n - "Send interval" kan være hva du foretrekker.\n - `ID`: `<Bil Navn>`\n - `PW`: {hemelighet}\n - `Http` eller` Https`, avhengig av tilgangen til Home Assistant-installasjonen.\n - `URL`: {url} - Merk: **Ikke** legg til http eller https til URL-en."
+    },
+    "step": {
+      "user": {
+        "description": "Er du sikker på at du vil konfigurere Leaf Spy?",
+        "title": "Sett opp Leaf Spy"
+      }
+    }
+  }
+}
